@@ -715,3 +715,163 @@ h2.title.on-dark{color:var(--cream)}
     font-size:.94rem;
   }
 }
+/* ═══════════════════════════════════════
+   MOBILE RESPONSIVE
+   ═══════════════════════════════════════ */
+
+@media (max-width: 600px){
+
+  /* عرض الصفحة */
+  .wrap{
+    width:92%;
+    max-width:100%;
+    margin-inline:auto;
+  }
+
+  /* المسافات بين الأقسام */
+  .section{
+    padding:4.5rem 0;
+  }
+
+  .section-head{
+    margin-bottom:2.5rem;
+    padding-inline:.3rem;
+  }
+
+  /* العناوين */
+  h2.title{
+    font-size:2rem;
+    line-height:1.45;
+  }
+
+  .lede{
+    font-size:.95rem;
+    line-height:1.8;
+    max-width:100%;
+  }
+
+  /* الخدمات */
+  .cards{
+    grid-template-columns:1fr;
+    gap:1rem;
+    width:100%;
+  }
+
+  .card{
+    width:100%;
+    padding:2rem 1.4rem;
+  }
+
+  /* تفاصيل الخدمات */
+  .card-details{
+    width:100%;
+  }
+
+  .card-details-content{
+    width:100%;
+  }
+
+  .detail-row{
+    gap:.6rem;
+    font-size:.84rem;
+  }
+
+  /* الأسعار */
+  .tiers{
+    grid-template-columns:1fr;
+    gap:1rem;
+    width:100%;
+  }
+
+  .tier{
+    width:100%;
+    padding:2.2rem 1.4rem;
+  }
+
+  .tier.featured{
+    padding-block:2.7rem;
+  }
+
+  .price{
+    font-size:2.35rem;
+  }
+
+  /* جميع الباقات تشمل */
+  .pricing-includes{
+    width:100%;
+    max-width:100%;
+    margin-top:2rem;
+    padding:1.7rem 1.3rem;
+  }
+
+  .pricing-includes h3{
+    font-size:1.55rem;
+  }
+
+  .pricing-includes li{
+    font-size:.98rem;
+    padding-right:25px;
+  }
+
+  /* التواصل */
+  .contact-grid{
+    grid-template-columns:1fr;
+    width:100%;
+    padding:1.5rem 1.2rem;
+  }
+
+  .contact-whatsapp{
+    width:100%;
+    text-align:center;
+  }
+
+  .whatsapp-btn{
+    width:100%;
+    max-width:100%;
+    text-align:center;
+  }
+
+  /* الحسابات */
+  .handles{
+    grid-template-columns:1fr;
+    gap:.8rem;
+  }
+
+  .handle{
+    width:100%;
+    padding:1.2rem 1.3rem;
+  }
+
+  /* الشروط والأحكام */
+  .terms-box{
+    width:100%;
+    max-width:100%;
+    padding:1.5rem 1.2rem;
+  }
+
+  .term-item{
+    grid-template-columns:28px 1fr;
+    gap:.7rem;
+  }
+
+  .term-item p{
+    font-size:.92rem;
+    line-height:1.85;
+  }
+
+  /* الأزرار */
+  .btn{
+    max-width:100%;
+  }
+
+}
+.cards{
+  grid-template-columns:1fr;
+}
+
+.tiers{
+  grid-template-columns:1fr;
+}
+.wrap{
+  width:92%;
+}
